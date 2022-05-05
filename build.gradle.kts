@@ -8,15 +8,15 @@ plugins {
     checkstyle
 }
 
-project.extra["GithubUrl"] = "https://github.com/Magnusrn/Plugins"
+project.extra["GithubUrl"] = "https://github.com/davidmickev/Plugin"
 
 apply<BootstrapPlugin>()
 
 subprojects {
     group = "com.example"
 
-    project.extra["PluginProvider"] = "Kitsch"
-    project.extra["ProjectSupportUrl"] = "https://discord.gg/bJfqQuQgfc"
+    project.extra["PluginProvider"] = "davidmickev"
+    project.extra["ProjectSupportUrl"] = ""
     project.extra["PluginLicense"] = "3-Clause BSD License"
 
     repositories {
