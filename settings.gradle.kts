@@ -26,8 +26,8 @@
 rootProject.name = "Kitsch Plugins"
 
 
-include(":oneclickcustom")
-include(":oneclicksandstone")
+//include(":oneclickcustom")
+//include(":oneclicksandstone")
 include(":oneclickchins")
 include(":oneclickminnows")
 
