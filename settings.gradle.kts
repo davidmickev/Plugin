@@ -30,6 +30,7 @@ rootProject.name = "Kitsch Plugins"
 //include(":oneclicksandstone")
 include(":oneclickchins")
 include(":oneclickminnows")
+include(":oneclickfletch")
 
 for (project in rootProject.children) {
     project.apply {

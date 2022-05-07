@@ -25,17 +25,17 @@ import ProjectVersions.openosrsVersion
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-version = "0.0.2"
+version = "2.2.8"
 
-project.extra["PluginName"] = "Birdhouse Infobox" // This is the name that is used in the external plugin manager panel
-project.extra["PluginDescription"] = "Overlays birdhouse infobox with timer" // This is the description that is used in the external plugin manager panel
+project.extra["PluginName"] = "One Click Custom" // This is the name that is used in the external plugin manager panel
+project.extra["PluginDescription"] = "Custom one click by ID for gameObject/NPC/Ground items/Fishing spots" // This is the description that is used in the external plugin manager panel
 
 dependencies {
     annotationProcessor(Libraries.lombok)
     annotationProcessor(Libraries.pf4j)
 
-    compileOnly("com.openosrs:runelite-api:$openosrsVersion+")
-    compileOnly("com.openosrs:runelite-client:$openosrsVersion+")
+    compileOnly("com.openosrs:runelite-api:$openosrsVersion")
+    compileOnly("com.openosrs:runelite-client:$openosrsVersion")
 
     compileOnly(Libraries.guice)
     compileOnly(Libraries.javax)
